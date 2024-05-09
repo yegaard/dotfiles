@@ -1,0 +1,29 @@
+
+# Gnome Console light
+
+# Default colors
+[colors.primary]
+background = '0x000000'
+foreground = '0xffffff'
+
+# Normal colors
+[colors.normal]
+black     = '0x241f31'
+red       = '0xc01c28'
+green     = '0x2ec27e'
+yellow    = '0xf5c211'
+blue      = '0x1e78e4'
+magenta   = '0x9841bb'
+cyan      = '0x0ab9dc'
+white     = '0xc0bfbc'
+
+# Bright colors
+[colors.bright]
+black      = '0x5e5c64'
+red        = '0xed333b'
+green      = '0x57e389'
+yellow     = '0xf8e45c'
+blue       = '0x51a1ff'
+magenta    = '0xc061cb'
+cyan       = '0x4fd2fd'
+white      = '0xf6f5f4'

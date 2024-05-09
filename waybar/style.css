@@ -1,0 +1,115 @@
+@define-color bg #000000;
+@define-color fg #ffffff;
+
+* {
+    border:             none;
+    border-radius:      0;
+    font-family:        JetBrainsMono Nerd Font, sans-serif;
+    font-size:          16px;
+    min-height:         20px;
+}
+
+window#waybar {
+    background:         @bg;
+    border-radius:      0px 0px 10px 10px;
+}
+
+#custom-wofi {
+    color:              @fg;
+    margin-left:        10px;
+    font-weight:        bold;
+    font-size:          16px;
+}
+
+#pulseaudio {
+    color:              @fg;
+}
+
+#bluetooth {
+    color:              @fg;
+}
+
+#network {
+    color:              @fg;
+    margin-right:       10px;
+    margin-right:       50px;
+}
+
+
+#workspaces {
+    border-radius:      10px;
+}
+#workspaces button {
+    color:              @fg;
+    padding:            0px 2px 0px 2px;
+    margin:             2px 0px 2px 0px;
+    border-radius:      10px;
+}
+#workspaces button.active {
+    color:              @bg;
+    background-color:   @fg;
+    padding:            0px 2px 0px 2px;
+    margin:             2px 0px 2px 0px;
+    border-radius:      10px;
+}
+#workspaces button.urgent {
+    color:              @bg;
+    background-color:   @dred;
+    padding:            0px 2px 0px 2px;
+    margin:             2px 0px 2px 0px;
+    border-radius:      10px;
+}
+#workspaces button:hover {
+    color:              @bg;
+    background:         @fg;
+    padding:            0px 2px 0px 2px;
+    margin:             2px 0px 2px 0px;
+    border-radius:      10px;
+}
+
+#language {
+    color:              @fg;
+    margin-right:       8px;
+}
+
+#clock {
+    color:              @fg;
+}
+
+#custom-weather {
+    color:              @fg;
+}
+
+#cpu {
+    color:              @fg;
+}
+
+#temperature {
+    color:              @fg;
+}
+
+#memory {
+    margin-right:       50px;
+    color:              @fg;
+}
+
+#battery {
+    color:              @fg;
+}
+
+#backlight {
+    color:              @fg;
+}
+
+#power-profiles-daemon {
+    color:              @fg;
+}
+
+#custom-power {
+    margin-right:       10px;
+    color:              @fg;
+}
+
+#idle_inhibitor {
+    color:              @fg;
+}

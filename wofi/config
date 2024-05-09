@@ -1,0 +1,16 @@
+width = 453
+height = 667
+x = 10px
+#x = 740px
+#x = 1450x
+y = 10px
+
+columns = 1
+
+no_actions = true
+hide_scroll = true
+
+image_size = 20
+prompt = search
+term = kitty
+hide_search = false

@@ -1,0 +1,53 @@
+@define-color bg #000000;
+@define-color fg #ffffff;
+
+* {
+    font-family: JetBrainsMono Nerd Font, sans-serif;
+    font-size: 16px;
+}
+
+window {
+    margin:             5px;
+    border:             2px solid @bg;
+    background-color:   @bg;
+    color:              @fg;
+    border-radius:      10px;
+}
+
+#input {
+    margin:             5px;
+    border:             2px solid @bg;
+    border-radius:      10px;
+    background-color:   @bg;
+}
+
+#outer-box {
+    margin:             5px;
+    border:             2px solid @bg;
+    border-radius:      10px;
+    background-color:   @bg;
+}
+
+#scroll {
+    margin:             5px;
+    border:             2px solid @bg;
+    border-radius:      10px;
+    background-color:   @fg;
+}
+
+#text {
+    margin: 5px;
+    background-color: @bg;
+    color: @fg;
+} 
+
+
+#entry:selected {
+    background-color:   @fg;
+    border-radius:      10px;
+}
+#text:selected {
+    background-color:   @fg;
+    color:              @bg
+}
+
