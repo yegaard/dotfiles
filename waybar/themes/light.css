@@ -1,12 +1,12 @@
-@define-color bg #000000;
-@define-color fg #ffffff;
+@define-color bg #e0dedc;
+@define-color fg #000000;
 
 * {
     border:             none;
     border-radius:      0;
     font-family:        JetBrainsMono Nerd Font, sans-serif;
-	font-weight: 		500;
     font-size:          16px;
+	font-weight: 		600;
     min-height:         20px;
 }
 
@@ -47,7 +47,7 @@ window#waybar {
     border-radius:      10px;
 }
 #workspaces button.active {
-    color:              @bg;
+    color:              #e0dedc;
     background-color:   @fg;
     padding:            0px 2px 0px 2px;
     margin:             2px 0px 2px 0px;

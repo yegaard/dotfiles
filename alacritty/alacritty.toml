@@ -1,4 +1,4 @@
-import = ["/home/yegaard/.config/alacritty/themes/0.toml"]
+import = ["/home/yegaard/.config/alacritty/themes/.theme.toml"]
 
 [font]
 size = 12.0

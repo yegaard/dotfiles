@@ -1,17 +1,17 @@
-@define-color bg #000000;
+@define-color gr-right blue;
+@define-color gr-left violet;
 @define-color fg #ffffff;
 
 * {
     border:             none;
     border-radius:      0;
     font-family:        JetBrainsMono Nerd Font, sans-serif;
-	font-weight: 		500;
     font-size:          16px;
     min-height:         20px;
 }
 
 window#waybar {
-    background:         @bg;
+    background:         linear-gradient(to left, @gr-right, @gr-left);
     border-radius:      0px 0px 0px 0px;
 }
 
@@ -47,7 +47,7 @@ window#waybar {
     border-radius:      10px;
 }
 #workspaces button.active {
-    color:              @bg;
+    color:              @gr-left;
     background-color:   @fg;
     padding:            0px 2px 0px 2px;
     margin:             2px 0px 2px 0px;
@@ -61,7 +61,7 @@ window#waybar {
     border-radius:      10px;
 }
 #workspaces button:hover {
-    color:              @bg;
+    color:              @gr-left;
     background:         @fg;
     padding:            0px 2px 0px 2px;
     margin:             2px 0px 2px 0px;
