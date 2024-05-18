@@ -5,7 +5,7 @@
     border:             none;
     border-radius:      0;
     font-family:        JetBrainsMono Nerd Font, sans-serif;
-	font-weight: 		500;
+	font-weight: 		400;
     font-size:          16px;
     min-height:         20px;
 }
@@ -55,7 +55,7 @@ window#waybar {
 }
 #workspaces button.urgent {
     color:              @bg;
-    background-color:   red;
+    background-color:   violet;
     padding:            0px 2px 0px 2px;
     margin:             2px 0px 2px 0px;
     border-radius:      10px;
