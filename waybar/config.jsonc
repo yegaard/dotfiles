@@ -106,7 +106,7 @@
         // "timezone": "America/New_York",
         "tooltip": false,
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt> ",
-		"format": "{:%d %b %H:%m}",
+		"format": "{:%d %b %H:%M}",
 		"format-alt": "{:%A %Y}",
         "on-click-right": "wofi --show drun"
     },
